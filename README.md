@@ -1,14 +1,14 @@
-Student Management System (Java)
+# Student Management System (Java)
 
 A console-based Java application that manages student records and calculates grades, GPA, and fee structure using a dynamic and modular approach.
 
-Overview
+## Overview
 
 This project was built to practice programming fundamentals, problem solving and modular program design using Java.
 
 The application allows users to enter multiple students and subjects, validate marks, calculate grades and GPA, and generate a final result sheet with fee calculation based on performance.
 
-Features
+## Features
 
 • Dynamic input for number of students and subjects
 • Input validation for marks (0–100)
@@ -21,28 +21,25 @@ Features
 • Clean tabular console output
 • Modular functions for structured design
 
-Concepts Used
-
+## Concepts Used
 Java fundamentals
 Control structures (if/else, loops)
 Arrays (1D & 2D)
 Functions and modular programming
 Input validation
 
-How to Run the Project
-Download or clone the repository
-Open the project in IntelliJ IDEA / Eclipse / VS Code
-Run the StudentManagementSystem.java file
-Enter number of students, subjects, and base fee
-Input student data to generate results
-Future Improvements
+## How to Run the Project
+1. Download or clone the repository
+2. Open the project in IntelliJ IDEA / Eclipse / VS Code
+3. Run the StudentManagementSystem.java file
+4. Enter number of students, subjects, and base fee
+5. Input student data to generate results
 
+## Future Improvements
 GUI version of the application
 File handling for saving student records
 OOP-based redesign using classes and objects
 Sorting system for ranking students
 
-Author
-
+## Author
 Mahnoor Shahbaz
-Software Engineering Student
