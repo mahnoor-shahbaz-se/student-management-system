@@ -1,43 +1,130 @@
-# Student Management System (Java)
+# 🎓 Student Management System
 
-A console-based Java application that manages student records, calculates grades, GPA, and applies scholarship discounts on semester fees.
+A console-based Java application that manages student records, calculates grades, GPA, and applies scholarship discounts on semester fees based on academic performance.
 
-## Overview
-This project was built to practice programming fundamentals, problem solving and modular program design using Java.
+---
 
-The application takes student names and subject marks as input, calculates totals, averages, grades, GPA, and generates a formatted result sheet with fee after scholarship deduction.
+## 📸 Sample Output
 
-## Features
-- Multi-student and multi-subject support
-- Input validation for marks (0–100 range enforced)
-- Automatic total and average calculation
-- Grade assignment based on average (A/B/C/D/F)
-- GPA calculation from grade
-- Scholarship logic based on GPA (up to 30% discount)
-- Formatted result sheet with fee per student
-- Class average calculation
+```
+=== STUDENT MANAGEMENT SYSTEM ===
+Enter number of students: 3
+Enter number of subjects: 2
+Enter base semester fee (PKR): 50000
 
-## Concepts Used
-Java fundamentals  
-Control structures (if/else, loops, do-while)  
-2D arrays  
-Functions and modular programming  
-Input validation and error handling  
-String formatting with printf  
+Enter student 1 name: Ali
+Enter marks for subject 1 (0-100): 98
+Enter marks for subject 2 (0-100): 89
 
-## How to Run the Project
-1. Download or clone the repository
-2. Open the project in IntelliJ IDEA
-3. Run the `StudentManagementSystem.java` file
-4. Enter the number of students, subjects, and base semester fee
-5. Input each student's name and marks when prompted
-6. View the generated result sheet in the console
+Enter student 2 name: Sara
+Enter marks for subject 1 (0-100): 57
+Enter marks for subject 2 (0-100): 69
 
-## Future Improvements
-File handling to save and load student records  
-Search and sort students by name or grade  
-GUI version using Java Swing  
-Database integration for persistent storage  
+Enter student 3 name: Ahmad
+Enter marks for subject 1 (0-100): 23
+Enter marks for subject 2 (0-100): 45
 
-## Author
-Mahnoor Shahbaz
+=========================================================
+             RESULT SHEET
+=========================================================
+Name            Total    Average    Grade  GPA   Fee(PKR)
+---------------------------------------------------------
+Ali             187      93.50      A      4.0   35000
+Sara            126      63.00      D      1.0   50000
+Ahmad           68       34.00      F      0.0   50000
+---------------------------------------------------------
+Class Average: 63.50
+=========================================================
+```
+---
+
+## ✨ Features
+
+- 👥 **Multi-student & multi-subject** support
+- ✅ **Input validation** — marks enforced between 0 and 100
+- 🧮 **Auto calculation** — total, average, grade and GPA per student
+- 🏅 **Scholarship logic** — up to 30% fee discount based on GPA
+- 📊 **Formatted result sheet** — clean aligned table output
+- 📈 **Class average** — calculated across all students
+
+---
+
+## 🏅 Scholarship Breakdown
+
+| GPA | Grade | Scholarship |
+|-----|-------|-------------|
+| 4.0 | A     | 30% off     |
+| 3.0 | B     | 20% off     |
+| 2.0 | C     | 10% off     |
+| 1.0 | D     | No discount |
+| 0.0 | F     | No discount |
+
+---
+
+## 🛠️ Tech & Concepts Used
+
+| Concept | Applied |
+|--------|---------|
+| Java Fundamentals | Variables, loops, conditionals |
+| 2D Arrays | Storing marks for multiple students |
+| Functions / Methods | Modular code structure |
+| Input Validation | Do-while loops + Scanner |
+| String Formatting | Aligned result sheet with printf |
+| Switch Statement | Grade to GPA conversion |
+
+---
+
+## 🚀 How to Run
+
+### ✅ Step 1 — Install Java (One Time Only)
+1. Go to 👉 https://www.java.com/en/download/
+2. Click **Download Java**
+3. Install it like any normal program (Next → Next → Finish)
+4. **Restart your computer** after installing
+
+---
+
+### ✅ Step 2 — Download the Project
+Open **Command Prompt** (search CMD in Windows search bar) and paste this:
+```bash
+git clone https://github.com/mahnoor-shahbaz-se/student-management-system.git
+```
+
+---
+
+### ✅ Step 3 — Go Into the Project Folder
+```bash
+cd student-management-system
+```
+
+---
+
+### ✅ Step 4 — Compile the Program
+```bash
+javac StudentManagementSystem.java
+```
+> You'll see no output if it works — that's normal! ✅
+
+---
+
+### ✅ Step 5 — Run the Program
+```bash
+java StudentManagementSystem
+```
+> Follow the on-screen instructions to enter student data!
+
+---
+
+## 🔮 Future Improvements
+
+- [ ] File handling to save and load student records
+- [ ] Search and sort students by name or grade
+- [ ] GUI version using Java Swing
+- [ ] Database integration for persistent storage
+
+---
+
+## 👩‍💻 Author
+
+**Mahnoor Shahbaz**
+🔗 [LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; 📧 [mahnoorshahbaz86@gmail.com](mailto:mahnoorshahbaz86@gmail.com)
