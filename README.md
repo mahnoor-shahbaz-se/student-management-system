@@ -6,36 +6,8 @@ A console-based Java application that manages student records, calculates grades
 
 ## 📸 Sample Output
 
-```
-=== STUDENT MANAGEMENT SYSTEM ===
-Enter number of students: 3
-Enter number of subjects: 2
-Enter base semester fee (PKR): 50000
+<img width="523" height="916" alt="carbon (2)" src="https://github.com/user-attachments/assets/a49e47e4-0552-4126-b169-a851e90437e9" />
 
-Enter student 1 name: Ali
-Enter marks for subject 1 (0-100): 98
-Enter marks for subject 2 (0-100): 89
-
-Enter student 2 name: Sara
-Enter marks for subject 1 (0-100): 57
-Enter marks for subject 2 (0-100): 69
-
-Enter student 3 name: Ahmad
-Enter marks for subject 1 (0-100): 23
-Enter marks for subject 2 (0-100): 45
-
-=========================================================
-             RESULT SHEET
-=========================================================
-Name            Total    Average    Grade  GPA   Fee(PKR)
----------------------------------------------------------
-Ali             187      93.50      A      4.0   35000
-Sara            126      63.00      D      1.0   50000
-Ahmad           68       34.00      F      0.0   50000
----------------------------------------------------------
-Class Average: 63.50
-=========================================================
-```
 ---
 
 ## ✨ Features
