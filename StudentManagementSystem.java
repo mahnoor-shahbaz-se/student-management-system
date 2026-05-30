@@ -78,35 +78,63 @@ public class StudentManagementSystem {
         return baseFee - (baseFee * scholarshipRate);
     }
 
+    public static String padRight(String text, int width) {
+        while (text.length() < width) {
+            text += " ";
+        }
+        return text;
+    }
     // ─── DISPLAY RESULT SHEET ─────────────────────────────────
     public static void displayResultSheet(String[] names, int[][] marks, double baseFee) {
+
         double classTotalAverage = 0;
 
-        String line = "-----------------------------------------------------------------";
+        String line = "========================================================================================";
 
         System.out.println("\n" + line);
-        System.out.println("|                        RESULT SHEET                          |");
+        System.out.println("                              STUDENT RESULT SHEET");
         System.out.println(line);
-        System.out.printf("| %-15s | %-7s | %-9s | %-5s | %-3s | %-8s |%n",
-                "Name", "Total", "Average", "Grade", "GPA", "Fee(PKR)");
+
+        System.out.println(
+                padRight("Name", 18) +
+                        padRight("Total", 10) +
+                        padRight("Average", 12) +
+                        padRight("Grade", 10) +
+                        padRight("GPA", 8) +
+                        "Fee (PKR)"
+        );
+
         System.out.println(line);
 
         for (int i = 0; i < names.length; i++) {
-            int    total   = calculateTotal(marks[i]);
+
+            int total = calculateTotal(marks[i]);
             double average = calculateAverage(total, marks[i].length);
-            String grade   = getGrade(average);
-            double gpa     = getGPA(grade);
-            double fee     = calculateFeeAfterScholarship(baseFee, gpa);
+            String grade = getGrade(average);
+            double gpa = getGPA(grade);
+            double fee = calculateFeeAfterScholarship(baseFee, gpa);
 
             classTotalAverage += average;
 
-            System.out.printf("| %-15s | %-7d | %-9.2f | %-5s | %-3.1f | %-8.0f |%n",
-                    names[i], total, average, grade, gpa, fee);
+            String averageText = String.valueOf(Math.round(average * 100.0) / 100.0);
+            String gpaText = String.valueOf(gpa);
+            String feeText = String.valueOf((int) fee);
+
+            System.out.println(
+                    padRight(names[i], 18) +
+                            padRight(String.valueOf(total), 10) +
+                            padRight(averageText, 12) +
+                            padRight(grade, 10) +
+                            padRight(gpaText, 8) +
+                            feeText
+            );
         }
 
         double classAverage = classTotalAverage / names.length;
+
         System.out.println(line);
-        System.out.printf("| Class Average: %-47.2f|%n", classAverage);
+        System.out.println("Class Average: " +
+                (Math.round(classAverage * 100.0) / 100.0));
         System.out.println(line);
     }
 
