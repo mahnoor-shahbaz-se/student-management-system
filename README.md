@@ -6,7 +6,8 @@ A console-based Java application that manages student records, calculates grades
 
 ## 📸 Sample Output
 
-<img width="523" height="916" alt="carbon (2)" src="https://github.com/user-attachments/assets/a49e47e4-0552-4126-b169-a851e90437e9" />
+<img width="877" height="767" alt="carbon (3)" src="https://github.com/user-attachments/assets/5c301166-244d-4193-9aeb-607bf46cdb64" />
+
 
 ---
 
