@@ -8,7 +8,6 @@ A console-based Java application that manages student records, calculates grades
 
 <img width="877" height="767" alt="carbon (3)" src="https://github.com/user-attachments/assets/5c301166-244d-4193-9aeb-607bf46cdb64" />
 
-
 ---
 
 ## ✨ Features
@@ -60,14 +59,14 @@ A console-based Java application that manages student records, calculates grades
 ### ✅ Step 2 — Download the Project
 Open **Command Prompt** (search CMD in Windows search bar) and paste this:
 ```bash
-git clone https://github.com/mahnoor-shahbaz-se/student-management-system.git
+git clone https://github.com/mahnoor-shahbaz-se/student-management-system-java.git
 ```
 
 ---
 
 ### ✅ Step 3 — Go Into the Project Folder
 ```bash
-cd student-management-system
+cd student-management-system-java
 ```
 
 ---
@@ -101,3 +100,5 @@ java StudentManagementSystem
 
 **Mahnoor Shahbaz**
 🔗 [LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; 📧 [mahnoorshahbaz86@gmail.com](mailto:mahnoorshahbaz86@gmail.com)
+
+More projects → [GitHub Profile](https://github.com/mahnoor-shahbaz-se)
