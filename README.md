@@ -1,27 +1,27 @@
-# 🎓 Student Management System
+# Student Management System
 
 A console-based Java application that manages student records, calculates grades, GPA, and applies scholarship discounts on semester fees based on academic performance.
 
 ---
 
-## 📸 Sample Output
+## Sample Output
 
-<img width="877" height="767" alt="carbon (3)" src="https://github.com/user-attachments/assets/5c301166-244d-4193-9aeb-607bf46cdb64" />
-
----
-
-## ✨ Features
-
-- 👥 **Multi-student & multi-subject** support
-- ✅ **Input validation** — marks enforced between 0 and 100
-- 🧮 **Auto calculation** — total, average, grade and GPA per student
-- 🏅 **Scholarship logic** — up to 30% fee discount based on GPA
-- 📊 **Formatted result sheet** — clean aligned table output
-- 📈 **Class average** — calculated across all students
+<img width="877" height="767" alt="Sample console output" src="https://github.com/user-attachments/assets/5c301166-244d-4193-9aeb-607bf46cdb64" />
 
 ---
 
-## 🏅 Scholarship Breakdown
+## Features
+
+- **Multi-student & multi-subject** support
+- **Input validation** — marks enforced between 0 and 100
+- **Auto calculation** — total, average, grade and GPA per student
+- **Scholarship logic** — up to 30% fee discount based on GPA
+- **Formatted result sheet** — clean aligned table output
+- **Class average** — calculated across all students
+
+---
+
+## Scholarship Breakdown
 
 | GPA | Grade | Scholarship |
 |-----|-------|-------------|
@@ -33,7 +33,7 @@ A console-based Java application that manages student records, calculates grades
 
 ---
 
-## 🛠️ Tech & Concepts Used
+## Tech & Concepts Used
 
 | Concept | Applied |
 |--------|---------|
@@ -46,48 +46,41 @@ A console-based Java application that manages student records, calculates grades
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
-### ✅ Step 1 — Install Java (One Time Only)
-1. Go to 👉 https://www.java.com/en/download/
+**Step 1 — Install Java (one time only)**
+1. Go to [java.com/en/download](https://www.java.com/en/download/)
 2. Click **Download Java**
 3. Install it like any normal program (Next → Next → Finish)
-4. **Restart your computer** after installing
+4. Restart your computer after installing
 
----
+**Step 2 — Download the project**
 
-### ✅ Step 2 — Download the Project
-Open **Command Prompt** (search CMD in Windows search bar) and paste this:
+Open Command Prompt (search CMD in Windows search bar) and run:
 ```bash
 git clone https://github.com/mahnoor-shahbaz-se/student-management-system-java.git
 ```
 
----
-
-### ✅ Step 3 — Go Into the Project Folder
+**Step 3 — Go into the project folder**
 ```bash
 cd student-management-system-java
 ```
 
----
-
-### ✅ Step 4 — Compile the Program
+**Step 4 — Compile the program**
 ```bash
 javac StudentManagementSystem.java
 ```
-> You'll see no output if it works — that's normal! ✅
+No output means it worked — that's expected.
 
----
-
-### ✅ Step 5 — Run the Program
+**Step 5 — Run the program**
 ```bash
 java StudentManagementSystem
 ```
-> Follow the on-screen instructions to enter student data!
+Follow the on-screen instructions to enter student data.
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 - [ ] File handling to save and load student records
 - [ ] Search and sort students by name or grade
@@ -96,9 +89,7 @@ java StudentManagementSystem
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Mahnoor Shahbaz**
-🔗 [LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; 📧 [mahnoorshahbaz86@gmail.com](mailto:mahnoorshahbaz86@gmail.com)
-
-More projects → [GitHub Profile](https://github.com/mahnoor-shahbaz-se)
+[LinkedIn](https://www.linkedin.com/in/mahnoor-shahbaz-se/) &nbsp;|&nbsp; [Email](mailto:mahnoorshahbaz86@gmail.com)
